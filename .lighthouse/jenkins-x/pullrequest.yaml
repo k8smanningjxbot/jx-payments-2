@@ -26,8 +26,7 @@ spec:
           resources: {}
         - name: build-python-unittest
           script: |
-            #!/usr/bin/env sh
-            echo "PATATA"
+            echo "hello"
         - name: build-container-build
           resources: {}
         - name: promote-jx-preview
